@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header" class="">
+      <h1 style="text-align: center;">Tremedal Revista</h1>
+    </header><!-- /header -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">TR</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Notícias <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Classificados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul><!-- /links -->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="O que deseja?">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Encontrar</button>
+        </form><!-- /search -->
+      </div>
+    </nav><!-- /nav -->
+  <div class="container">
+    <main class="row">
+        <section class="main1 col-md-6 col-sm-12">
+          <div class="foto-legenda">
+          <img class="img-fluid" src="imagens/update/01.jpeg" alt="">
+            <div class="foto-img-caption">
+              <h1 class="caption-h">Fluid jumbotron</h1>
+            </div>
+          </div>       
+        </section>
+        <section class="main2 col-md-6 col-sm-12">
+          <div class="card-group">
+            <div class="card card-block foto-legenda">
+              <img class="card-img img-fluid" src="imagens/update/01.jpeg" alt="Card image cap">
+              <div class="card-img-overlay foto-img-caption">
+                <a class="" href="#"><h4 class="card-title caption-h">Card 01</h4></a>
+              </div>
+            </div>
+            <div class="card card-block foto-legenda">
+              <img class="card-img img-fluid" src="imagens/update/01.jpeg" alt="Card image cap">
+              <div class="card-img-overlay foto-img-caption">
+                <a class="" href="#"><h4 class="card-title caption-h">Card 02</h4></a>
+              </div>
+            </div>
+            <div class="card card-block foto-legenda">
+              <img class="card-img img-fluid" src="imagens/update/01.jpeg" alt="Card image cap">
+              <div class="card-img-overlay foto-img-caption">
+                <a class="" href="#"><h4 class="card-title caption-h">Card 03</h4></a>
+              </div>
+            </div>
+            <div class="card card-block foto-legenda">
+              <img class="card-img img-fluid" src="imagens/update/01.jpeg" alt="Card image cap">
+              <div class="card-img-overlay foto-img-caption">
+                <a class="" href="#"><h4 class="card-title caption-h">Card 04</h4></a>
+              </div>    
+            </div>    
+            </div>
+          </div><!-- card columns -->
+        </section>
+    </main><!-- /main mother-->
+  </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="app/bower_components/jquery/dist/jquery.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="app/bower_components/tether/dist/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="app/bower_components/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <style>
+    /* configurando a imagem com fundo e hover com gradiente */
+    .caption-h{
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      padding: 10px;
+    }
+    .foto-legenda{
+      position: relative;
+      border: 2px solid gray;
+    }
+    .foto-legenda img{
+      width: 100%;
+      height: 100%;
+    }
+    .foto-img-caption a{
+      color:white;
+    }
+    .foto-img-caption{
+      position: absolute;
+      top:0;
+      width: 100%;
+      height: 100%;
+      color: white;
+      box-sizing: border-box;
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+71,000000+100&0+0,0+61,0.65+100 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 61%, rgba(255,255,255,0.17) 71%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(61%,rgba(255,255,255,0)), color-stop(71%,rgba(255,255,255,0.17)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.17) 71%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.17) 71%,rgba(0,0,0,0.65) 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.17) 71%,rgba(0,0,0,0.65) 100%); /* IE10 preview */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.17) 71%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    }
+    .foto-img-caption:hover{
+      position: absolute;
+      top:0;
+      width: 100%;
+      height: 100%;
+      color: white;
+      box-sizing: border-box;
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+71,000000+100&0+0,0+61,1+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 61%, rgba(255,255,255,0.26) 71%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(61%,rgba(255,255,255,0)), color-stop(71%,rgba(255,255,255,0.26)), color-stop(100%,rgba(0,0,0,1))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.26) 71%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.26) 71%,rgba(0,0,0,1) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.26) 71%,rgba(0,0,0,1) 100%); /* IE10 preview */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 61%,rgba(255,255,255,0.26) 71%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    }   
+
+    .card-block {min-width: 48%;
+      padding: 1px;
+      border: none;
+    }
+
+    .caption .post-caption:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 5%;
+    left: 0;
+    opacity: 0.8;
+    z-index: 0;
+    background-image: -webkit-linear-gradient(top, transparent 0%, black 100%);
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+    background-repeat: repeat-x;
+    -webkit-transition: .4s all ease;
+    transition: .4s all ease;
+    z-index: -1;
+      }
+    </style>
+  </body>
+</html>

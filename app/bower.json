@@ -1,0 +1,23 @@
+{
+  "name": "TR Tremedal Revista",
+  "homepage": "https://github.com/horfew/portal",
+  "authors": [
+    "Gilmar Ribeiro da Silva"
+  ],
+  "description": "Tremedal Revista o portal de notícias de Tremedal e do Sudoeste Bahiano",
+  "main": "",
+  "keywords": [
+    "tremedalrevista"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
